@@ -101,8 +101,8 @@ Because of the computation time of the approximation via ratios of Bessel functi
 
 Here are the results of the computation of function `logbessel_I` with `fast = False` (green dashed plot), alongside the `scipy`(blue curve) and asymptotic (orange dashed curve) methods:
 <p align="left">
-  <img src="https://github.com/JRConti/Bessel-functions-Pytorch/blob/main/images/methods_low_nu.png" width="450">
-  <img src="https://github.com/JRConti/Bessel-functions-Pytorch/blob/main/images/methods_high_nu.png" width="450">
+  <img src="https://github.com/JRConti/Bessel-functions-Pytorch/blob/main/images/methods_low_nu.png" width="420">
+  <img src="https://github.com/JRConti/Bessel-functions-Pytorch/blob/main/images/methods_high_nu.png" width="420">
 </p>
 
 For low z values (left), the `scipy` version is always defined so our function is identical. There are 2 asymptotes (around 0 and for +inf).
