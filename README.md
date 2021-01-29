@@ -76,8 +76,8 @@ A fast but not so accurate way to compute log[I(nu, z)] is to use asymptotic beh
 The quality of the approximation is quantified here using the relative error with respect to `scipy` methods (when they are tractable).
 
 <p align="left">
-  <img src="https://github.com/JRConti/Bessel-functions-Pytorch/blob/main/images/ratio_approximation_error_low_nu.png" width="450">
-  <img src="https://github.com/JRConti/Bessel-functions-Pytorch/blob/main/images/ratio_approximation_error_high_nu.png" width="480">
+  <img src="https://github.com/JRConti/Bessel-functions-Pytorch/blob/main/images/ratio_approximation_error_low_nu.png" width="350">
+  <img src="https://github.com/JRConti/Bessel-functions-Pytorch/blob/main/images/ratio_approximation_error_high_nu.png" width="380">
 </p>
 
 For nu = 1000 (right), the `scipy`computation is not tractable for z <~ 600. 
