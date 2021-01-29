@@ -30,6 +30,10 @@ def logbessel_I_scipy(nu, z, check = True):
 		Argument of Bessel function.
 	check: bool
 		If True, check if argument of log is non zero.
+	
+	Return
+	------
+	result: tensor, shape (N,)
 	'''
 	if not isinstance(z, torch.Tensor):
 		z = torch.tensor(z)
@@ -56,6 +60,10 @@ def logbessel_I_asymptotic(nu, z):
 		Order of modified Bessel function of 1st kind.
 	z: tensor, shape (N,) 
 		Argument of Bessel function.
+	
+	Return
+	------
+	result: tensor, shape (N,)
 	'''
 	z = z.double()
 	eta = (nu + 0.5)/(2* (nu+1) )
@@ -132,6 +140,10 @@ def Ak_approx(nu, z):
 		Order of modified Bessel functions of 1st kind.
 	z: tensor, shape (N1,) 
 		Argument of Bessel function. Positive values only.
+	
+	Return
+	------
+	tensor, shape (N1, N0)
 	'''
 	return 0.5*(lb_Ak(nu, z) + ub_Ak(nu, z)) 
 
@@ -186,6 +198,10 @@ def logbessel_I(nu, z, fast = False, check = True):
 		https://arxiv.org/pdf/1902.02603.pdf
 	check: bool
 		If True, check if argument of log is non zero and not NaN.
+	
+	Return
+	------
+	result: tensor, shape (N,)
 	'''
 	if not isinstance(z, torch.Tensor):
 		z = torch.tensor(z)
