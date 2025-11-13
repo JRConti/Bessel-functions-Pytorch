@@ -132,7 +132,7 @@ Journal of Mathematical Analysis and Applications, Volume 443, Issue 2, 15 Novem
 
 ## Meta
 
-Jean-Rémy Conti – jean-remy.conti@mines-paristech.fr
+Jean-Rémy Conti – jeanremy.conti@gmail.com
 
 Distributed under the GNU license. See LICENSE for more information.
 
